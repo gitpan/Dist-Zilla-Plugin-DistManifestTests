@@ -3,10 +3,11 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::DistManifestTests;
-our $VERSION = '1.100710';
-# ABSTRACT: release tests for the manifest
+BEGIN {
+  $Dist::Zilla::Plugin::DistManifestTests::VERSION = '1.101420';
+}
+# ABSTRACT: Release tests for the manifest
 use Moose;
-use Test::DistManifest;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
 __PACKAGE__->meta->make_immutable;
@@ -20,11 +21,11 @@ no Moose;
 
 =head1 NAME
 
-Dist::Zilla::Plugin::DistManifestTests - release tests for the manifest
+Dist::Zilla::Plugin::DistManifestTests - Release tests for the manifest
 
 =head1 VERSION
 
-version 1.100710
+version 1.101420
 
 =head1 SYNOPSIS
 
@@ -35,7 +36,7 @@ In C<dist.ini>:
 =head1 DESCRIPTION
 
 This is an extension of L<Dist::Zilla::Plugin::InlineFiles>, providing the
-following files
+following file:
 
   xt/release/dist-manifest.t - a standard Test::DistManifest test
 

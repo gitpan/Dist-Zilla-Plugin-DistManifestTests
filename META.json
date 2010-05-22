@@ -1,41 +1,44 @@
 {
-   "resources" : {
-      "homepage" : "http://search.cpan.org/dist/Dist-Zilla-Plugin-DistManifestTests/",
-      "repository" : "http://github.com/hanekomu/Dist-Zilla-Plugin-DistManifestTests",
-      "bugtracker" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-DistManifestTests"
-   },
-   "generated_by" : "Dist::Zilla version 1.100660",
-   "meta-spec" : {
-      "version" : 1.4,
-      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
-   },
-   "version" : "1.100710",
-   "name" : "Dist-Zilla-Plugin-DistManifestTests",
+   "abstract" : "Release tests for the manifest",
    "author" : [
       "Marcel Gruenauer <marcel@cpan.org>"
    ],
-   "license" : "perl",
-   "build_requires" : {},
-   "provides" : {
-      "Dist::Zilla::Plugin::DistManifestTests" : {
-         "version" : "1.100710",
-         "file" : "lib/Dist/Zilla/Plugin/DistManifestTests.pm"
-      }
-   },
-   "requires" : {
-      "Scalar::Util" : "0",
-      "English" : "0",
+   "build_requires" : {
       "Carp" : "0",
-      "perl" : "5.008",
-      "Test::More" : "0",
-      "Test::DistManifest" : "0",
+      "English" : "0",
       "File::Find" : "0",
       "File::Temp" : "0",
-      "Moose" : "0",
-      "Dist::Zilla::Plugin::InlineFiles" : "0"
+      "Scalar::Util" : "0",
+      "Test::More" : "0.94"
    },
-   "abstract" : "release tests for the manifest",
    "configure_requires" : {
-      "ExtUtils::MakeMaker" : "6.11"
-   }
+      "ExtUtils::MakeMaker" : "6.31"
+   },
+   "generated_by" : "Dist::Zilla version 2.100960",
+   "license" : "perl",
+   "meta-spec" : {
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html",
+      "version" : 1.4
+   },
+   "name" : "Dist-Zilla-Plugin-DistManifestTests",
+   "provides" : {
+      "Dist::Zilla::Plugin::DistManifestTests" : {
+         "file" : "lib/Dist/Zilla/Plugin/DistManifestTests.pm",
+         "version" : "1.101420"
+      }
+   },
+   "recommends" : {},
+   "requires" : {
+      "Dist::Zilla::Plugin::InlineFiles" : "0",
+      "Moose" : "0",
+      "Test::DistManifest" : "0",
+      "perl" : "5.008"
+   },
+   "resources" : {
+      "bugtracker" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-DistManifestTests",
+      "homepage" : "http://search.cpan.org/dist/Dist-Zilla-Plugin-DistManifestTests/",
+      "repository" : "http://github.com/hanekomu/Dist-Zilla-Plugin-DistManifestTests"
+   },
+   "version" : "1.101420"
 }
+

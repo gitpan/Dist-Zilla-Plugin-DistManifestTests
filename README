@@ -1,8 +1,8 @@
 NAME
-    Dist::Zilla::Plugin::DistManifestTests - release tests for the manifest
+    Dist::Zilla::Plugin::DistManifestTests - Release tests for the manifest
 
 VERSION
-    version 1.100710
+    version 1.101420
 
 SYNOPSIS
     In "dist.ini":
@@ -11,7 +11,7 @@ SYNOPSIS
 
 DESCRIPTION
     This is an extension of Dist::Zilla::Plugin::InlineFiles, providing the
-    following files
+    following file:
 
       xt/release/dist-manifest.t - a standard Test::DistManifest test
 
